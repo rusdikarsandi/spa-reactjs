@@ -15,7 +15,7 @@ body {
     margin: 0;
   }
   ul.header {
-    background-color: #23BA91;
+    background-color: #24CED0;
     padding: 0;
   }
   ul.header li a {
@@ -35,4 +35,31 @@ body {
   }
   .content li {
     margin-bottom: 10px;
+  }
+  
+  .boxWhite {
+    height: 700px;
+    background: white;
+  }
+  .bgCircle {
+    border-radius: 50%;
+    width: 230px;
+    height: 230px;
+    background-color: #24CED0;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 10px;
+    float: left;
+    font-size: 13px;
+  
+  }
+  
+  .circle {
+    border-radius: 50%;
+  }
+  .ctr {
+    text-align: center;
   }

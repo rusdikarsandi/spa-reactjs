@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 
-class Home extends Component {
+class Turkey extends Component {
 
   constructor(props) {
     super(props);
@@ -11,7 +11,7 @@ class Home extends Component {
   }
 
   componentDidMount() {
-      fetch("https://randomuser.me/api/?results=10")
+      fetch("https://randomuser.me/api/?results=10&nat=tr")
         .then(res => res.json())
         .then(parsedJSON => parsedJSON.results.map(data => (
           {
@@ -57,4 +57,4 @@ class Home extends Component {
     }
   }
 
-export default Home;
+export default Turkey;
