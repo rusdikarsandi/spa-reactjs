@@ -1,0 +1,7 @@
+npx create-react-app myapp
+
+cd myapp
+
+npm install react-router-dom --save
+
+source: https://www.kodingindonesia.com/membuat-single-page-application-spa-dengan-reactjs/2/
