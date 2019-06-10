@@ -1,11 +1,19 @@
 {
+<<<<<<< HEAD
   "name": "spareact",
+=======
+  "name": "spa",
+>>>>>>> 46ff5d6d6de13eab1a8d84d3e0ba1605e881f091
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+<<<<<<< HEAD
     "react-router-dom": "^5.0.1",
+=======
+    "react-router-dom": "^5.0.0",
+>>>>>>> 46ff5d6d6de13eab1a8d84d3e0ba1605e881f091
     "react-scripts": "3.0.1"
   },
   "scripts": {
